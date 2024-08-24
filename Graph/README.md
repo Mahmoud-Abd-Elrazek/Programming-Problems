@@ -1,6 +1,6 @@
 # Programming Problems > Graph
 
-# Problem Solutions using C++ lang
+### Problem Solutions using C++ lang
 
 This file contains solutions to various programming problems, solved using C++. Below is a list of problems along with their respective websites and direct links.
 
@@ -11,6 +11,7 @@ This file contains solutions to various programming problems, solved using C++. 
 | Course Schedule          | leetcode    | [Problem Link](https://leetcode.com/problems/course-schedule/) |
 | Number of islands          | leetcode    | [Problem Link](https://leetcode.com/problems/number-of-islands) |
 | Clone Graph          | leetcode    | [Problem Link](https://leetcode.com/problems/clone-graph) |
+| Word Ladder          | leetcode    | [Problem Link](https://leetcode.com/problems/word-ladder/) |
 | Directed_Graph_Cycle          | geeksforgeeks       | [Problem Link](https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1) |
 | Dueling_Philosophers          | UVA      | [Problem Link](https://vjudge.net/problem/UVALive-6195#google_vignette) |
 | Friends          | UVA    | [Problem Link](https://vjudge.net/problem/UVA-10608#google_vignette) |
