@@ -9,6 +9,8 @@ This file contains solutions to various programming problems, solved using C++. 
 | AKBAR - Akbar , The great          | SPOJ      | [Problem Link](https://www.spoj.com/problems/AKBAR/)|
 | Longest Path in a tree          | SPOJ    | [Problem Link](https://www.spoj.com/problems/PT07Z/) |
 | Course Schedule          | leetcode    | [Problem Link](https://leetcode.com/problems/course-schedule/) |
+| Number of islands          | leetcode    | [Problem Link](https://leetcode.com/problems/number-of-islands) |
+| Clone Graph          | leetcode    | [Problem Link](https://leetcode.com/problems/clone-graph) |
 | Directed_Graph_Cycle          | geeksforgeeks       | [Problem Link](https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1) |
 | Dueling_Philosophers          | UVA      | [Problem Link](https://vjudge.net/problem/UVALive-6195#google_vignette) |
 | Friends          | UVA    | [Problem Link](https://vjudge.net/problem/UVA-10608#google_vignette) |
