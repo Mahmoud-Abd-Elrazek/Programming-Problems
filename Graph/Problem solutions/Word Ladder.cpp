@@ -11,6 +11,7 @@
 #include <cstring>
 #include <utility>
 #include <unordered_map> 
+#include <unordered_set> 
 
 using namespace std;
 using i64 = long long;
@@ -27,43 +28,38 @@ void io() {
 class Solution {
 public:
    int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
-      unordered_map<string,bool> found;
-      for (auto str : wordList)
-         found[str] = true;
-      if (found[endWord] == false)
-         return 0;
 
-      queue<string>nextToVisit;
-      nextToVisit.push(beginWord);
+      unordered_set<string> st;
+      for(auto&word:wordList)
+         st.emplace(word);
 
-      int distance = 0;
+      // Node , shortest path until now
+      queue<pair<string,int>> nextToVisit;
+      nextToVisit.push({beginWord,1});
 
       while (nextToVisit.empty() == false) {
-         distance +=1;
+         string front = nextToVisit.front().first;
+         int depth = nextToVisit.front().second;
+         nextToVisit.pop();
 
-         int levels = nextToVisit.size();
-         for (int k = 1 ; k <= levels; ++k) {
-            string front = nextToVisit.front();
-            nextToVisit.pop();
+         if (front == endWord) return depth;
 
-            int N = front.length();
-            for (int i = 0 ; i < N ; ++i) {
-               string temp = front;
-               for (char ch = 'a' ; ch <= 'z' ; ++ch) {
-                  temp[i] = ch;
-                  if (front == temp) continue;
-                  if (temp == endWord)
-                     return distance + 1 ;
-                  if (found[temp] == true) {
-                     nextToVisit.push(temp);
-                     found.erase(temp);
-                  }
-               } // end character loop
-            } // end front traversal
-         } // end levels loop
-      }// end bfs
-      return 0;
+         int wordLen = front.length();
+         for (int i = 0 ; i < wordLen ; ++i) {
+            char tempChar = front[i];
+            for (char ch = 'a' ; ch <= 'z' ; ++ch) {
+               front[i] = ch;
+               if (st.find(front) != st.end()) {
+                  st.erase(front);
+                  nextToVisit.push({front,depth+1});
+               }
+            }
+            front[i] = tempChar;
+         }
 
+      }// End bfs
+
+         return 0;
    }
 };
 int main() {
