@@ -12,9 +12,11 @@ This file contains solutions to various programming problems, solved using C++. 
 | Number of islands          | leetcode    | [Problem Link](https://leetcode.com/problems/number-of-islands) |
 | Clone Graph          | leetcode    | [Problem Link](https://leetcode.com/problems/clone-graph) |
 | Word Ladder          | leetcode    | [Problem Link](https://leetcode.com/problems/word-ladder/) |
+| Find Eventual Safe States          | leetcode    | [Problem Link](https://leetcode.com/problems/find-eventual-safe-states/description/) |
 | Pacific Atlantic Water Flow          | leetcode    | [Problem Link](https://leetcode.com/problems/pacific-atlantic-water-flow/description/) |
 | Island perimeter          | leetcode    | [Problem Link](https://leetcode.com/problems/island-perimeter/) |
 | Word Search          | leetcode    | [Problem Link](https://leetcode.com/problems/word-search/) |
+| Shortest Bridge          | leetcode    | [Problem Link](https://leetcode.com/problems/shortest-bridge/) |
 | Directed_Graph_Cycle          | geeksforgeeks       | [Problem Link](https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1) |
 | Dueling_Philosophers          | UVA      | [Problem Link](https://vjudge.net/problem/UVALive-6195#google_vignette) |
 | Friends          | UVA    | [Problem Link](https://vjudge.net/problem/UVA-10608#google_vignette) |
