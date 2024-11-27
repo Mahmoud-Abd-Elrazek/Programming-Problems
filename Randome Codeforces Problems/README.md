@@ -4,6 +4,15 @@
 
 This file contains solutions to various programming problems, solved using C++. Below is a list of problems along with their respective websites and direct links.
 
+* Note if the link of the problem is not found you can search by using its name.
+---
+
+| Problem Name               | Website       | Problem Link                                          |
+|----------------------------|---------------|-------------------------------------------------------|
+| Even_Odds          | codeforces      | [Problem Link](https://codeforces.com/problemset/problem/318/A)|
+| B. Drinks          | codeforces      | [Problem Link](https://codeforces.com/problemset/problem/200/B)|
+| A. Magnets          | codeforces      | [Problem Link](https://codeforces.com/problemset/problem/344/A)|
+
 ---
 
 Feel free to replace the example entries with your actual problem details.
