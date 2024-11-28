@@ -12,6 +12,7 @@ This file contains solutions to various programming problems, solved using C++. 
 | Even_Odds          | codeforces      | [Problem Link](https://codeforces.com/problemset/problem/318/A)|
 | B. Drinks          | codeforces      | [Problem Link](https://codeforces.com/problemset/problem/200/B)|
 | A. Magnets          | codeforces      | [Problem Link](https://codeforces.com/problemset/problem/344/A)|
+| Plus or Minus          | codeforces      | [Problem Link](https://codeforces.com/problemset/problem/1807/A)|
 
 ---
 
