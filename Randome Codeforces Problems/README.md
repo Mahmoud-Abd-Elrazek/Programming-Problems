@@ -13,6 +13,10 @@ This file contains solutions to various programming problems, solved using C++. 
 | B. Drinks          | codeforces      | [Problem Link](https://codeforces.com/problemset/problem/200/B)|
 | A. Magnets          | codeforces      | [Problem Link](https://codeforces.com/problemset/problem/344/A)|
 | Plus or Minus          | codeforces      | [Problem Link](https://codeforces.com/problemset/problem/1807/A)|
+| Medium Number          | codeforces      | [Problem Link](https://codeforces.com/problemset/problem/1760/A)|
+| Choosing Teams          | codeforces      | [Problem Link](https://codeforces.com/problemset/problem/432/A)|
+| Cheap Travel          | codeforces      | [Problem Link](https://codeforces.com/problemset/problem/466/A)|
+| Odd Divisor          | codeforces      | [Problem Link](https://codeforces.com/problemset/problem/1475/A)|
 
 ---
 
