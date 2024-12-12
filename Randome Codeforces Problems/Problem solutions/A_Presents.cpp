@@ -1,0 +1,20 @@
+// لَنْ تَنَالُوا الْبِرَّ حَتَّى تُنْفِقُوا مِمَّا تُحِبُّونَ وَمَا تُنْفِقُوا مِنْ شَيْءٍ فَإِنَّ اللَّهَ بِهِ عَلِيمٌ [آل عمران:92].
+
+// © M_Abrazeg
+
+#include <bits/stdc++.h>
+using namespace std;
+using i64 = long long;
+const int INF = 0x3f3f3f3f, N = 1000000;
+
+int main(){
+	int n, a, p[101] = { 0 };
+	cin >> n;
+	for (int i = 1; i <= n; i++) {
+		cin >> a;
+		p[a] = i;
+	}	
+	for (int i = 1; i <= n; i++) {
+		cout << p[i] << " ";
+	}
+}
